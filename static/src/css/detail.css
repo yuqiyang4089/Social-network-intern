@@ -1,0 +1,139 @@
+
+.back {
+    position: fixed;
+    left: 70px;
+    top: 110px;
+}
+.nidea{
+  padding: 2px;
+  background-color: #999795;
+}
+.c_body{
+  background-color: #b4b3b1;
+}
+.btn.collapsed{
+  background: transparent;
+}
+.btn{
+  background: transparent;
+}
+label{
+  padding:3px;
+}
+.radiodiv{
+  height: 23px;
+}
+.gap-line{
+  width: 300px;
+  height: 10px;
+  border-top: 1px solid #7c7e7d;
+  margin-left: 5px;
+  padding-bottom: 5px;
+}
+/* .con_property{
+  margin-left:25px;
+}
+.scale{
+  margin-left:12px;
+}
+.s_no{
+  padding-left:31px;
+}
+.s_no_r{
+  padding-left:38px;
+} */
+
+.h1-ip{
+  vertical-align:middle;
+  margin-left:15px;
+  height:20px;
+  width:80px;
+  /* font-size:15px */
+}
+.h1-b{
+  margin-left:20px !important;
+  height:25px !important;
+  width:55px !important;
+  vertical-align:middle !important;
+  font-size:10px !important;
+}
+.h1-l{
+  font-size:12px;
+  color:#efeeef;
+  vertical-align:middle;
+  /* padding:5px; */
+  padding:11px;
+  margin-bottom:0;
+}
+.fil-post{
+  font-size:12px;
+  color:#efeeef;
+  /* vertical-align:middle; */
+  /* padding:5px; */
+  /* padding:11px; */
+  /* margin-bottom:0; */
+}
+.visible{
+  color:#343334 !important;
+}
+
+
+.opt-g-font{
+  font-size:10px;
+  font-weight:2;
+}
+.h2-sc{
+  vertical-align:middle!important;
+  margin-left:30px ;
+  height: 26px !important;
+  font-size:11px;
+  width:125px !important;
+}
+.colormap{
+  width:100px;
+  height:20px;
+  vertical-align:top;
+}
+
+img[src=""],img:not([src]){
+            opacity:0;
+        }
+.dpdown{
+  background-color:white !important;
+  vertical-align:top;
+  width:128px;
+  height:24px;
+}
+
+.tooltip_click_display td{
+  padding-left: 25px;
+  padding-top:5px;
+  color:#5a5c5b;
+}
+.m_color_font{
+  margin-bottom: 0px;
+  color:rgb(73, 80, 87);
+  font-size: 11px;
+}
+.multiple{
+  margin-left:20px;
+  width:270px!important;
+}
+.label.transition.visible{
+  font-size:10px!important;
+  font-weight:4!important;
+}
+.track-fill{
+  stroke:#6c6b6c !important;
+}
+.outline-box{
+ padding:10px;
+}
+.sta_label{
+  margin-left:10px;
+  width:55%;
+}
+
+.layout-para-font{
+  font-size: 10px;
+}
