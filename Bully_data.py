@@ -67,11 +67,16 @@ def my_Bully_post():
 	edges = {}
 	for e in range(len(edgesdata)):
 		edges[e] = g.add_edge(vet[edgesdata[e][0]],vet[edgesdata[e][1]])
+		print(edgesdata[e][3])
 		e_type[edges[e]] = {'type': edgesdata[e][2]}
-		e_year[edges[e]] = {'year': edgesdata[e][3]}
-		e_source[edges[e]] = edgesdata[e][0]
-		e_target[edges[e]] = edgesdata[e][1]
+		e_year[edges[e]] = {'year': int(edgesdata[e][3])}
+		# print(edges[e])
+		# print(edgesdata[e][0])
+		e_source[edges[e]] = int(edgesdata[e][0])
+		e_target[edges[e]] = int(edgesdata[e][1])
+		# print(type(e_source), e_source)
 	g.edge_properties['type'] = e_type
+	# print("Test")
 	g.edge_properties['year'] = e_year
 	g.edge_properties['source'] = e_source
 	g.edge_properties['target'] = e_target

@@ -75,8 +75,8 @@ def my_form_post():
 		edges[e] = g.add_edge(vet[edgesdata[e][0]],vet[edgesdata[e][1]])
 		e_date[edges[e]] = {'date': edgesdata[e][2]}
 		e_dailycount[edges[e]] ={'dailycount': edgesdata[e][3]}
-		e_source[edges[e]] = edgesdata[e][0]
-		e_target[edges[e]] = edgesdata[e][1]
+		e_source[edges[e]] = int(edgesdata[e][0])
+		e_target[edges[e]] = int(edgesdata[e][1])
 	g.edge_properties["date"] = e_date
 	g.edge_properties["dailycount"] = e_dailycount
 	g.edge_properties["source"] = e_source
@@ -340,34 +340,3 @@ def calculate_cen (pre_u,type,pos_type):
 		links.append(s_edge)
 	all_data['links']=links
 	return(all_data)
-
-
-
-
-
-
-
-# for v in g.vertices():
-# 	for e in v.out_edges():
-# 		print(e)
-   # for w in v.out_neighbors():
-   #     print(w)
-# gt.graph_draw.interactive_window(g, pos=None, vprops=None, eprops=None, vorder=None, eorder=None, nodesfirst=False, geometry=(500, 400), update_layout=True, sync=True, main=True, **kwargs)
-# gt.graph_draw(g, pos, vertex_text = g.vertex_index,vertex_font_size=8,output_size=(3000,3000),output ="data convert3.png")
-
-
-# gt.graph_draw(g, pos, vertex_text = g.vertex_index, vertex_font_size=8)
-
-
-# #g.list_properties()
-# #deep copy
-# # g2 = Graph(g)
-
-# lable = gt.label_parallel_edges(g,mark_only=False,eprop= None)
-# remove= gt.remove_parallel_edges(g)
-# #adjust the
-# pos = gt.sfdp_layout(g, p=2.6)
-# # graph_draw(g2, pos, vertex_text = g2.vertex_index,vertex_font_size=8,output_size=(3000,3000), output ="data convert.png")
-# pr = gt.pagerank(g)
-# gt.graph_draw(g, pos, vertex_fill_color=pr,vertex_size=gt.prop_to_size(pr, mi=5, ma=15),vorder=pr, vcmap=matplotlib.cm.gist_heat,output="datacen.pdf")
-# # g.save("fb_network.gml")
