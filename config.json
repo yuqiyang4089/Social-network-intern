@@ -1,0 +1,20 @@
+{
+    "Categorical": {
+        "Color Hue": null,
+        "Shape": null
+    },
+    "Quantitative": {
+        "Color Luminance": {
+            "min": null,
+            "max": null
+        },
+        "Color Saturation": {
+            "min": null,
+            "max": null
+        },
+        "Size": {
+            "min": null,
+            "max": null
+        }
+    }
+}
