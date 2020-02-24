@@ -1,0 +1,42 @@
+{
+  "Node": {
+    "size": {
+      "attr": "Continuous",
+      "visibility": false,
+      "options": {},
+      "default_value": null
+    },
+    "alpha": {
+      "attr": "Continuous",
+      "visibility": false,
+      "options": {},
+      "default_value": null
+    },
+    "border_size": {
+      "attr": "Continuous",
+      "visibility": false,
+      "options": {},
+      "default_value": null
+    }
+  },
+  "Edge": {
+    "size": {
+      "attr": "Continuous",
+      "visibility": false,
+      "options": {},
+      "default_value": null
+    },
+    "alpha": {
+      "attr": "Continuous",
+      "visibility": false,
+      "options": {},
+      "default_value": null
+    },
+    "border_size": {
+      "attr": "Continuous",
+      "visibility": false,
+      "options": {},
+      "default_value": null
+    }
+  }
+}
