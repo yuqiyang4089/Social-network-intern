@@ -1,0 +1,23 @@
+{
+  "name": "social-network-intern",
+  "version": "0.1.0",
+  "description": "Social network visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuqiyang4089/Social-network-intern.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuqiyang4089/Social-network-intern/issues"
+  },
+  "homepage": "https://github.com/yuqiyang4089/Social-network-intern#readme",
+  "dependencies": {
+    "elm": "^0.19.0",
+    "flask": "^0.2.10"
+  }
+}
