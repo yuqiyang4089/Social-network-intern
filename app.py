@@ -65,6 +65,18 @@ def fildata_b():
     fil['e'] = output_filter_b_e()
     return fil
 
+@app.route('/menu', method=["GET", "POST"])
+def menu_json_file_api():
+    if request.method == 'GET':
+        with open("static/config_skeleton.json", 'r') as load_f:
+            jsondata = json.load(load_f)
+        return jsondata
+    else:
+        # TODO: front end not implemented
+        f = request.form['customized_config']
+        with open('static/config_customized.json', 'w') as outfile:
+            json.dump(f, outfile, indent=2)
+
 
 @app.route('/detail_fb', methods=['POST'])
 def select_data():
