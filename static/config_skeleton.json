@@ -1,42 +1,822 @@
 {
+  "metadata": {
+    "Node": [
+      "Global Scale Setting",
+      "Node Channels",
+      "Node Filter",
+      "Node Lable Setting"
+    ],
+    "Edge": [
+      "Global Scale setting",
+      "Edge Channels",
+      "Edge Filter",
+      "Edge Lable Setting"
+    ]
+  },
   "Node": {
-    "size": {
-      "attr": "Continuous",
-      "visibility": false,
-      "options": {},
-      "default_value": null
+    "Global Scale Setting": {
+      "Node Size": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "Node Color": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "Node Opacity": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "Node Border-width": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "Node Border-color": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      }
     },
-    "alpha": {
-      "attr": "Continuous",
-      "visibility": false,
-      "options": {},
-      "default_value": null
+    "Node Channels": {
+      "Node Size": {
+        "Node Property": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        }
+      },
+      "Node Color": {
+        "Node Property": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        },
+        "Color Map": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        }
+      },
+      "Node Opacity": {
+        "Node Property": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        }
+      },
+      "Node Border-Width": {
+        "Node Property": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        }
+      },
+      "Node Border-Color": {
+        "Node Property": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        },
+        "Color Map": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        }
+      }
     },
-    "border_size": {
-      "attr": "Continuous",
-      "visibility": false,
-      "options": {},
-      "default_value": null
+    "Node Filter": {
+      "type": "filter"
+    },
+    "Node Lable Setting": {
+      "properties selection": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "properties display": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      }
     }
   },
   "Edge": {
-    "size": {
-      "attr": "Continuous",
-      "visibility": false,
-      "options": {},
-      "default_value": null
+    "Global Scale Setting": {
+      "Edge Width": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "Edge Color": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "Edge Opacity": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "Edge Shape": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      }
     },
-    "alpha": {
-      "attr": "Continuous",
-      "visibility": false,
-      "options": {},
-      "default_value": null
+    "Edge Channels": {
+      "Edge Width": {
+        "Edge Property": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        }
+      },
+      "Edge Color": {
+        "Edge Property": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        },
+        "Color Map": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        }
+      },
+      "Edge Opacity": {
+        "Edge Property": {
+          "isLeaf": true,
+          "type": "associate_display",
+          "property name": "property name",
+          "default value": "default",
+          "options": {
+            "Categorical": {
+              "Tableau10": "/static/src/rcs/Tableau10.png",
+              "Set3": "/static/src/rcs/Set3.png",
+              "Pastel1": "/static/src/rcs/Pastel1.png",
+              "Paired": "/static/src/rcs/Paired.png",
+              "Dark2": "/static/src/rcs/Dark2.png",
+              "Category10": "/static/src/rcs/Category10.png",
+              "Accent": "/static/src/rcs/Accent.png"
+            },
+            "Sequential (Single Hue)": {
+              "Blues": "/static/src/rcs/Blues[k].png",
+              "Greys": "/static/src/rcs/Greys[k].png",
+              "Greens": "/static/src/rcs/Greens[k].png",
+              "Oranges": "/static/src/rcs/Oranges[k].png",
+              "Purples": "/static/src/rcs/Purples[k].png",
+              "Reds": "/static/src/rcs/Reds[k].png"
+            },
+            "Sequential (Multi-Hue)": {
+              "Sinebow": "/static/src/rcs/Sinebow(t).png",
+              "Spectral": "/static/src/rcs/Spectral[k].png"
+            }
+          },
+          "metadata": "properties selection",
+          "visibility": true,
+          "name": "Click Edge to see Label"
+        }
+      }
     },
-    "border_size": {
-      "attr": "Continuous",
-      "visibility": false,
-      "options": {},
-      "default_value": null
+    "Edge Filter": {
+      "type": "filter"
+    },
+    "Edge Lable Setting": {
+      "properties selection": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      },
+      "properties display": {
+        "isLeaf": true,
+        "type": "associate_display",
+        "property name": "property name",
+        "default value": "default",
+        "options": {
+          "Categorical": {
+            "Tableau10": "/static/src/rcs/Tableau10.png",
+            "Set3": "/static/src/rcs/Set3.png",
+            "Pastel1": "/static/src/rcs/Pastel1.png",
+            "Paired": "/static/src/rcs/Paired.png",
+            "Dark2": "/static/src/rcs/Dark2.png",
+            "Category10": "/static/src/rcs/Category10.png",
+            "Accent": "/static/src/rcs/Accent.png"
+          },
+          "Sequential (Single Hue)": {
+            "Blues": "/static/src/rcs/Blues[k].png",
+            "Greys": "/static/src/rcs/Greys[k].png",
+            "Greens": "/static/src/rcs/Greens[k].png",
+            "Oranges": "/static/src/rcs/Oranges[k].png",
+            "Purples": "/static/src/rcs/Purples[k].png",
+            "Reds": "/static/src/rcs/Reds[k].png"
+          },
+          "Sequential (Multi-Hue)": {
+            "Sinebow": "/static/src/rcs/Sinebow(t).png",
+            "Spectral": "/static/src/rcs/Spectral[k].png"
+          }
+        },
+        "metadata": "properties selection",
+        "visibility": true,
+        "name": "Click Edge to see Label"
+      }
     }
   }
 }
