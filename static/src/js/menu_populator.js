@@ -2,7 +2,7 @@ var menuConfig;
 
 function populate_menu() {
   $.get("/menu", function (data) {
-    menuConfig = $.parseJSON(data);
+    menuConfig = data;
     console.log(menuConfig);
   })
 }

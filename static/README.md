@@ -1,9 +1,23 @@
-## Unsolved Problems
-1. A 90% zoom will be better for laptop.
+# Social Network Visualization Tool
+
+## Setting up environment
+
+**The instruction is based on macOS.**
+
+1. Install elm and flask.
+2. Install graph tools by using homebrew.
+3. Reinstall every elm dependency according to the elm.json provided. Please backup the original file and copy a new fresh generated elm.json file for new elm project and then using `elm install` to install all the dependency according to the original elm.json file.
+4. Setup flask. (by referring to the official doc)
+
+**Make sure your python3 is correctly linked to homebrew!!!**
+
+## Compile the frontend
+
+Please ignore the official doc of elm. Run `elm make main.elm` in the static directory to compile .html file.
 
 ## Run
-1. ``` ./run.sh``` (```chmod +x run.sh``` if Permission denied).
-2. Open index.html with FireFox.
+
+2. In the root directory, run `flask run`
 
 ## Project Structure
 * src  
@@ -12,4 +26,3 @@
     - /css: Dir for all the css files.  
     - /data: Dir for all the data files.  
     - /rcs: Dir for all the images and other recourses.
-* test: All the test files for part of the functions.
