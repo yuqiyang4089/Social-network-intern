@@ -65,7 +65,8 @@ def fildata_b():
     fil['e'] = output_filter_b_e()
     return fil
 
-@app.route('/menu', method=["GET", "POST"])
+
+@app.route('/menu', methods=["GET", "POST"])
 def menu_json_file_api():
     if request.method == 'GET':
         with open("static/config_skeleton.json", 'r') as load_f:

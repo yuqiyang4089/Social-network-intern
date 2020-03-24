@@ -17,8 +17,10 @@ dropDownMetadata = {}
 
 menuType = ['Node', 'Edge']
 
-subNodeType = ['Global Scale Setting', 'Node Channels', 'Node Filter', 'Node Lable Setting']
-subEdgeType = ['Global Scale setting', 'Edge Channels', 'Edge Filter', 'Edge Lable Setting']
+subNodeType = ['Global Scale Setting', 'Node Channels',
+               'Node Filter', 'Node Lable Setting']
+subEdgeType = ['Global Scale setting', 'Edge Channels',
+               'Edge Filter', 'Edge Lable Setting']
 
 # Node menu
 individualNodeProperties = {}
@@ -26,40 +28,40 @@ individualNodeProperties = {}
 individualNodeProperties['Global Scale Setting'] = {}
 individualNodeProperties['Global Scale Setting']['Node Size'] = individualPropertyTemplate
 individualNodeProperties['Global Scale Setting']['Node Size']['type'] = 'fill_in'
-individualNodeProperties['Global Scale Setting']['Node Size']['property name']= 'Node Size'
+individualNodeProperties['Global Scale Setting']['Node Size']['property name'] = 'Node Size'
 individualNodeProperties['Global Scale Setting']['Node Size']['default value'] = 2
 
 individualNodeProperties['Global Scale Setting']['Node Color'] = individualPropertyTemplate
 individualNodeProperties['Global Scale Setting']['Node Color']['type'] = 'fill_in'
-individualNodeProperties['Global Scale Setting']['Node Color']['property name']= 'Node Color'
+individualNodeProperties['Global Scale Setting']['Node Color']['property name'] = 'Node Color'
 individualNodeProperties['Global Scale Setting']['Node Color']['default value'] = 'FF0000'
 
 individualNodeProperties['Global Scale Setting']['Node Opacity'] = individualPropertyTemplate
 individualNodeProperties['Global Scale Setting']['Node Opacity']['type'] = 'fill_in'
-individualNodeProperties['Global Scale Setting']['Node Opacity']['property name']= 'Node Opacity'
+individualNodeProperties['Global Scale Setting']['Node Opacity']['property name'] = 'Node Opacity'
 individualNodeProperties['Global Scale Setting']['Node Opacity']['default value'] = 100
 
 individualNodeProperties['Global Scale Setting']['Node Border-width'] = individualPropertyTemplate
 individualNodeProperties['Global Scale Setting']['Node Border-width']['type'] = 'fill_in'
-individualNodeProperties['Global Scale Setting']['Node Border-width']['property name']= 'Node Border-width'
+individualNodeProperties['Global Scale Setting']['Node Border-width']['property name'] = 'Node Border-width'
 individualNodeProperties['Global Scale Setting']['Node Border-width']['default value'] = 0
 
 individualNodeProperties['Global Scale Setting']['Node Border-color'] = individualPropertyTemplate
 individualNodeProperties['Global Scale Setting']['Node Border-color']['type'] = 'fill_in'
-individualNodeProperties['Global Scale Setting']['Node Border-color']['property name']= 'Node Border-color'
+individualNodeProperties['Global Scale Setting']['Node Border-color']['property name'] = 'Node Border-color'
 individualNodeProperties['Global Scale Setting']['Node Border-color']['default value'] = '000000'
 
 individualNodeProperties['Node Channels'] = {}
 individualNodeProperties['Node Channels']['Node Size'] = {}
 individualNodeProperties['Node Channels']['Node Size']['Node Property'] = individualPropertyTemplate
 individualNodeProperties['Node Channels']['Node Size']['Node Property']['type'] = 'populate_selection'
-individualNodeProperties['Node Channels']['Node Size']['Node Property']['property name']= 'Node Property'
+individualNodeProperties['Node Channels']['Node Size']['Node Property']['property name'] = 'Node Property'
 individualNodeProperties['Node Channels']['Node Size']['Node Property']['default value'] = 'default'
 
 individualNodeProperties['Node Channels']['Node Color'] = {}
 individualNodeProperties['Node Channels']['Node Color']['Node Property'] = individualPropertyTemplate
 individualNodeProperties['Node Channels']['Node Color']['Node Property']['type'] = 'populate_selection'
-individualNodeProperties['Node Channels']['Node Color']['Node Property']['property name']= 'Node Property'
+individualNodeProperties['Node Channels']['Node Color']['Node Property']['property name'] = 'Node Property'
 individualNodeProperties['Node Channels']['Node Color']['Node Property']['default value'] = 'default'
 
 dropDownMetadata['Categorical'] = {
@@ -86,31 +88,31 @@ dropDownMetadata['Sequential (Multi-Hue)'] = {
 
 individualNodeProperties['Node Channels']['Node Color']['Color Map'] = individualPropertyTemplate
 individualNodeProperties['Node Channels']['Node Color']['Color Map']['type'] = 'static_selection'
-individualNodeProperties['Node Channels']['Node Color']['Color Map']['property name']= 'Color Map'
+individualNodeProperties['Node Channels']['Node Color']['Color Map']['property name'] = 'Color Map'
 individualNodeProperties['Node Channels']['Node Color']['Color Map']['default value'] = 'default'
 individualNodeProperties['Node Channels']['Node Color']['Color Map']['options'] = dropDownMetadata
 
 individualNodeProperties['Node Channels']['Node Opacity'] = {}
 individualNodeProperties['Node Channels']['Node Opacity']['Node Property'] = individualPropertyTemplate
 individualNodeProperties['Node Channels']['Node Opacity']['Node Property']['type'] = 'populate_selection'
-individualNodeProperties['Node Channels']['Node Opacity']['Node Property']['property name']= 'property name'
+individualNodeProperties['Node Channels']['Node Opacity']['Node Property']['property name'] = 'property name'
 individualNodeProperties['Node Channels']['Node Opacity']['Node Property']['default value'] = 'default'
 
 individualNodeProperties['Node Channels']['Node Border-Width'] = {}
 individualNodeProperties['Node Channels']['Node Border-Width']['Node Property'] = individualPropertyTemplate
 individualNodeProperties['Node Channels']['Node Border-Width']['Node Property']['type'] = 'populate_selection'
-individualNodeProperties['Node Channels']['Node Border-Width']['Node Property']['property name']= 'property name'
+individualNodeProperties['Node Channels']['Node Border-Width']['Node Property']['property name'] = 'property name'
 individualNodeProperties['Node Channels']['Node Border-Width']['Node Property']['default value'] = 'default'
 
 individualNodeProperties['Node Channels']['Node Border-Color'] = {}
 individualNodeProperties['Node Channels']['Node Border-Color']['Node Property'] = individualPropertyTemplate
 individualNodeProperties['Node Channels']['Node Border-Color']['Node Property']['type'] = 'populate_selection'
-individualNodeProperties['Node Channels']['Node Border-Color']['Node Property']['property name']= 'property name'
+individualNodeProperties['Node Channels']['Node Border-Color']['Node Property']['property name'] = 'property name'
 individualNodeProperties['Node Channels']['Node Border-Color']['Node Property']['default value'] = 'default'
 
 individualNodeProperties['Node Channels']['Node Border-Color']['Color Map'] = individualPropertyTemplate
 individualNodeProperties['Node Channels']['Node Border-Color']['Color Map']['type'] = 'static_selection'
-individualNodeProperties['Node Channels']['Node Border-Color']['Color Map']['property name']= 'Color Map'
+individualNodeProperties['Node Channels']['Node Border-Color']['Color Map']['property name'] = 'Color Map'
 individualNodeProperties['Node Channels']['Node Border-Color']['Color Map']['default value'] = 'default'
 individualNodeProperties['Node Channels']['Node Border-Color']['Color Map']['options'] = dropDownMetadata
 
@@ -133,17 +135,17 @@ individualEdgeProperties = {}
 individualEdgeProperties['Global Scale Setting'] = {}
 individualEdgeProperties['Global Scale Setting']['Edge Width'] = individualPropertyTemplate
 individualEdgeProperties['Global Scale Setting']['Edge Width']['type'] = 'fill_in'
-individualEdgeProperties['Global Scale Setting']['Edge Width']['property name']= 'Edge Width'
+individualEdgeProperties['Global Scale Setting']['Edge Width']['property name'] = 'Edge Width'
 individualEdgeProperties['Global Scale Setting']['Edge Width']['default value'] = 2
 
 individualEdgeProperties['Global Scale Setting']['Edge Color'] = individualPropertyTemplate
 individualEdgeProperties['Global Scale Setting']['Edge Color']['type'] = 'fill_in'
-individualEdgeProperties['Global Scale Setting']['Edge Color']['property name']= 'Edge Color'
+individualEdgeProperties['Global Scale Setting']['Edge Color']['property name'] = 'Edge Color'
 individualEdgeProperties['Global Scale Setting']['Edge Color']['default value'] = 'FF0000'
 
 individualEdgeProperties['Global Scale Setting']['Edge Opacity'] = individualPropertyTemplate
 individualEdgeProperties['Global Scale Setting']['Edge Opacity']['type'] = 'fill_in'
-individualEdgeProperties['Global Scale Setting']['Edge Opacity']['property name']= 'Edge Opacity'
+individualEdgeProperties['Global Scale Setting']['Edge Opacity']['property name'] = 'Edge Opacity'
 individualEdgeProperties['Global Scale Setting']['Edge Opacity']['default value'] = 100
 
 dropDownMetadata = {}
@@ -154,7 +156,7 @@ dropDownMetadata['Arror Dash Line'] = '/static/src/rcs/arrow-dash-line.png'
 
 individualEdgeProperties['Global Scale Setting']['Edge Shape'] = individualPropertyTemplate
 individualEdgeProperties['Global Scale Setting']['Edge Shape']['type'] = 'static_selection'
-individualEdgeProperties['Global Scale Setting']['Edge Shape']['property name']= 'Edge Shape'
+individualEdgeProperties['Global Scale Setting']['Edge Shape']['property name'] = 'Edge Shape'
 individualEdgeProperties['Global Scale Setting']['Edge Shape']['default value'] = 'default'
 individualEdgeProperties['Global Scale Setting']['Edge Shape']['options'] = dropDownMetadata
 
@@ -162,13 +164,13 @@ individualEdgeProperties['Edge Channels'] = {}
 individualEdgeProperties['Edge Channels']['Edge Width'] = {}
 individualEdgeProperties['Edge Channels']['Edge Width']['Edge Property'] = individualPropertyTemplate
 individualEdgeProperties['Edge Channels']['Edge Width']['Edge Property']['type'] = 'populate_selection'
-individualEdgeProperties['Edge Channels']['Edge Width']['Edge Property']['property name']= 'Edge Property'
+individualEdgeProperties['Edge Channels']['Edge Width']['Edge Property']['property name'] = 'Edge Property'
 individualEdgeProperties['Edge Channels']['Edge Width']['Edge Property']['default value'] = 'default'
 
 individualEdgeProperties['Edge Channels']['Edge Color'] = {}
 individualEdgeProperties['Edge Channels']['Edge Color']['Edge Property'] = individualPropertyTemplate
 individualEdgeProperties['Edge Channels']['Edge Color']['Edge Property']['type'] = 'populate_selection'
-individualEdgeProperties['Edge Channels']['Edge Color']['Edge Property']['property name']= 'Edge Property'
+individualEdgeProperties['Edge Channels']['Edge Color']['Edge Property']['property name'] = 'Edge Property'
 individualEdgeProperties['Edge Channels']['Edge Color']['Edge Property']['default value'] = 'default'
 
 dropDownMetadata = {}
@@ -196,14 +198,14 @@ dropDownMetadata['Sequential (Multi-Hue)'] = {
 
 individualEdgeProperties['Edge Channels']['Edge Color']['Color Map'] = individualPropertyTemplate
 individualEdgeProperties['Edge Channels']['Edge Color']['Color Map']['type'] = 'static_selection'
-individualEdgeProperties['Edge Channels']['Edge Color']['Color Map']['property name']= 'Color Map'
+individualEdgeProperties['Edge Channels']['Edge Color']['Color Map']['property name'] = 'Color Map'
 individualEdgeProperties['Edge Channels']['Edge Color']['Color Map']['default value'] = 'default'
 individualEdgeProperties['Edge Channels']['Edge Color']['Color Map']['options'] = dropDownMetadata
 
 individualEdgeProperties['Edge Channels']['Edge Opacity'] = {}
 individualEdgeProperties['Edge Channels']['Edge Opacity']['Edge Property'] = individualPropertyTemplate
 individualEdgeProperties['Edge Channels']['Edge Opacity']['Edge Property']['type'] = 'populate_selection'
-individualEdgeProperties['Edge Channels']['Edge Opacity']['Edge Property']['property name']= 'property name'
+individualEdgeProperties['Edge Channels']['Edge Opacity']['Edge Property']['property name'] = 'property name'
 individualEdgeProperties['Edge Channels']['Edge Opacity']['Edge Property']['default value'] = 'default'
 
 individualEdgeProperties['Edge Filter'] = {}
